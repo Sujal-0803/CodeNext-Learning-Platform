@@ -24,7 +24,7 @@
    - **Frontend**: HTML5, CSS3, JavaScript, JSP (Java Server Pages)
    - **Backend**: Java, Servlets                     
    - **Database**: JDBC, MySQL                               
-   - **Development Tool**: Eclipse IDE, Git & GitHub
+   - **Development Tools**: Eclipse IDE, Git & GitHub
    - **Server**:  Apache Tomcat                                   
 
 ## 📂 Project Structure            
