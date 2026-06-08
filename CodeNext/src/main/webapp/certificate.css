@@ -1,0 +1,233 @@
+/* ── CERTIFICATE PAGE ── */
+.cert-page {
+    padding: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ── BACK & PRINT BUTTONS ── */
+.cert-back {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.cert-back-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #64748b;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.cert-back-btn:hover { color: #00e5a0; }
+
+.cert-print-btn {
+    padding: 9px 20px;
+    background: transparent;
+    color: #00e5a0;
+    border: 1px solid #00e5a0;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cert-print-btn:hover {
+    background: #00e5a0;
+    color: #0d1117;
+    box-shadow: 0 0 16px rgba(0,229,160,0.4);
+}
+
+/* ── CERTIFICATE CARD ── */
+.cert-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+/* ── TOP BORDER ── */
+.cert-top-border {
+    height: 8px;
+    background: linear-gradient(90deg,
+        #00e5a0, #3b82f6, #7c3aed, #00e5a0);
+}
+
+/* ── CERTIFICATE HEADER ── */
+.cert-header {
+    text-align: center;
+    padding: 32px 40px 16px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.cert-logo {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0d1117;
+    margin-bottom: 4px;
+}
+
+.cert-subtitle {
+    font-size: 13px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* ── CERTIFICATE TITLE ── */
+.cert-title {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a2540;
+    padding: 28px 40px 8px;
+    letter-spacing: 1px;
+}
+
+/* ── CERTIFICATE BODY ── */
+.cert-body {
+    text-align: center;
+    padding: 16px 60px 32px;
+}
+
+.cert-presented {
+    font-size: 14px;
+    color: #64748b;
+    font-family: 'DM Sans', sans-serif;
+    margin: 8px 0;
+}
+
+.cert-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0d1117;
+    margin: 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #00e5a0;
+    display: inline-block;
+}
+
+.cert-course {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2563eb;
+    margin: 12px 0;
+}
+
+/* ── CERTIFICATE FOOTER ── */
+.cert-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 24px 40px;
+    border-top: 1px solid #e2e8f0;
+    background: #f8fafc;
+}
+
+.cert-sign-line {
+    width: 140px;
+    height: 1px;
+    background: #1a2540;
+    margin-bottom: 6px;
+}
+
+.cert-sign-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a2540;
+}
+
+.cert-sign-role {
+    font-size: 11px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── SEAL ── */
+.cert-footer-center {
+    text-align: center;
+}
+
+.cert-seal {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,
+        #00e5a0, #00c98a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d1117;
+    margin: 0 auto 4px;
+    box-shadow: 0 0 20px rgba(0,229,160,0.4);
+}
+
+.cert-seal-text {
+    font-size: 11px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ── CERT NUMBER ── */
+.cert-footer-right {
+    text-align: right;
+}
+
+.cert-no {
+    font-size: 11px;
+    color: #94a3b8;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 4px;
+    word-break: break-all;
+}
+
+.cert-date {
+    font-size: 12px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── BOTTOM BORDER ── */
+.cert-bottom-border {
+    height: 8px;
+    background: linear-gradient(90deg,
+        #00e5a0, #3b82f6, #7c3aed, #00e5a0);
+}
+
+/* ── PRINT STYLES ── */
+@media print {
+    .header,
+    .menubar,
+    .cert-back,
+    .footer {
+        display: none !important;
+    }
+
+    .cert-page {
+        padding: 0;
+    }
+
+    .cert-card {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    body {
+        background: white !important;
+    }
+}
