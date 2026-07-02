@@ -156,4 +156,4 @@ This project is open source and free to use for learning and portfolio purposes.
 
 
 
-> Built with by Sujal Maru | CodeNext 2026
+> Built by **Sujal Maru** | CodeNext 2026
