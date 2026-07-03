@@ -29,6 +29,8 @@
 
 ## 📂 Project Structure            
 
+```
+
 CodeNext         
 │                                                                                                                  
 ├── src/main/java                                         
@@ -77,6 +79,8 @@ CodeNext
 ├── Libraries                                                         
 ├── Referenced Libraries                                                        
 └── build                                                           
+
+```
 
 ## 🗄️ Database Tables
 
@@ -154,6 +158,6 @@ Passionate Java Full Stack Developer focused on building practical web applicati
 
 This project is open source and free to use for learning and portfolio purposes.
 
-
+---
 
 > Built by **Sujal Maru** | CodeNext 2026
