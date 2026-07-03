@@ -141,8 +141,7 @@ String pass = "your_mysql_password";
 - AI-Powered Learning Recommendations.               
 - Gamification & Badges.                 
 - Course Video Integration.                       
-- Mentor & Community Support.                
-- Dark Mode.                
+- Mentor & Community Support.                            
 
 ## 👨‍💻 Developer
 
