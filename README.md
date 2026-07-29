@@ -21,8 +21,8 @@
   
 ## 🛠️ Tech Stack
  
-   - **Frontend**: HTML5, CSS3, JavaScript, JSP (Java Server Pages)
-   - **Backend**: Java, Servlets, JDBC                   
+   - **Frontend**: HTML5, CSS3, JavaScript
+   - **Backend**: Java, JSP (Java Server Pages), Servlets, JDBC                   
    - **Database**:  MySQL                               
    - **Development Tools**: Eclipse IDE, Git & GitHub
    - **Server**:  Apache Tomcat                                   
